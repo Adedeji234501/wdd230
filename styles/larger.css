@@ -1,0 +1,23 @@
+/* Media Query for Larger Views */
+@media screen and (min-width: 768px) {
+    /* Navigation Styles */
+    nav {
+        display: flex;
+        justify-content: center;
+    }
+
+    /* Main Content Styles */
+    main {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 20px;
+    }
+
+    /* Card Styles */
+    .card {
+        width: calc(50% - 0);
+    }
+    .card2 {
+        width: calc(50% - 0);
+    }
+}
