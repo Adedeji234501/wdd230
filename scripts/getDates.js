@@ -1,8 +1,9 @@
+
 document.addEventListener("DOMContentLoaded", function() {
     // Array of learning activities
     const learningActivities = [
         { week: 'Week 1', activity: 'Layout | Media Query | JS Pen' },
-        { week: 'Week 2', activity: '' }, // Placeholder for Week 2
+        { week: 'Week 2', activity: 'Design | Menu | BOM-25' }, // Placeholder for Week 2
         { week: 'Week 3', activity: '' }, // Placeholder for Week 3
         { week: 'Week 4', activity: '' }, // Placeholder for Week 4
         { week: 'Week 5', activity: '' }, // Placeholder for Week 5
@@ -30,4 +31,24 @@ document.addEventListener("DOMContentLoaded", function() {
 
     // Set the text content of the element to the last modified date
     lastModifiedElement.textContent = "Last Modified: " + lastModifiedDate;
+});
+document.addEventListener("DOMContentLoaded", function() {
+    const menuIcon = document.getElementById('menuIcon');
+    const mainMenu = document.getElementById('mainMenu');
+
+    function toggleMenu() {
+        mainMenu.classList.toggle("show");
+    }
+
+    menuIcon.addEventListener('click', toggleMenu);
+});
+
+
+// Dark mode toggle function
+document.addEventListener("DOMContentLoaded", function() {
+    const darkModeToggle = document.getElementById('darkModeToggle');
+    
+    darkModeToggle.addEventListener("click", function () {
+        document.body.classList.toggle("dark-mode");
+    });
 });

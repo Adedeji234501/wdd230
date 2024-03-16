@@ -6,19 +6,32 @@
     <title>Azeez Adedeji - WDD 230 - Web Frontend Development</title>
     <meta name="description" content="WDD 230 - Web Frontend Development. Azeez Adedeji's course assignment portal.">
     <meta name="author" content="Azeez Adedeji">
+    <link rel="stylesheet" href="./styles/normalize.css">
     <link rel="stylesheet" href="./styles/base.css">
     <link rel="stylesheet" href="./styles/larger.css">
+    <!-- Social media meta tags-->
+    <meta property="og:title" content="Azeez Adedeji">
+    <meta property="og:URL" content="https://adedeji234501.github.io/wdd230/">
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="images/favicon.jpg">
 </head>
 <body>
     <header>
+        <!-- Hamburger menu icon for mobile view -->
+        <div id="menuIcon" class="menu-icon" onclick="toggleMenu()">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
         <img src="images/profile.jpg" alt="Azeez Adedeji">
         <span>Azeez Adedeji</span>
-    </header>
+        <button id="darkModeToggle">Dark Mode</button>
+    </header> 
 
-    <nav>
+    <nav id="mainMenu">
         <ul>
             <li><a href="index.html">Home</a></li>
-            <li><a href="#">Chamber</a></li>
+            <li><a href="chamber/index.html">Chamber</a></li>
             <li><a href="chamber-site-plan.html">Site Plan</a></li>
             <li><a href="#">Form</a></li>
         </ul>

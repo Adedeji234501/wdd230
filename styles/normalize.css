@@ -1,0 +1,59 @@
+/* CSS Reset */
+
+/* Box sizing border-box for all elements */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Default body styles */
+body {
+    font-family: 'Roboto', 'Eczar', sans-serif; /* Default font family */
+    line-height: 1.6; /* Default line height */
+    font-size: 16px; /* Default font size */
+    background-color: #fff; /* Default background color */
+    color: #000; /* Default text color */
+}
+
+/* Remove default list styles */
+ul, ol {
+    list-style: none;
+}
+
+/* Remove default margin and padding for all elements */
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, li, figure, figcaption, blockquote, dl, dd {
+    margin: 0;
+    padding: 0;
+}
+
+/* Remove default styles for headings */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold; /* Default font weight for headings */
+}
+
+/* Remove default styles for links */
+a {
+    text-decoration: none; /* Remove underline from links */
+    color: inherit; /* Inherit text color */
+}
+
+/* Remove default styles for buttons */
+button {
+    border: none; /* Remove border */
+    background: none; /* Remove background */
+    cursor: pointer; /* Change cursor to pointer */
+}
+
+/* Remove default styles for images */
+img {
+    max-width: 100%; /* Make images responsive */
+    height: auto; /* Prevent images from stretching */
+}
+
+/* Remove default outline on focus */
+:focus {
+    outline: none;
+}
+
+/* Add any additional customizations as needed */

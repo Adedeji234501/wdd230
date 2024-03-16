@@ -1,5 +1,15 @@
+
 /* Media Query for Larger Views */
 @media screen and (min-width: 768px) {
+    .menu-icon {
+        display: flex;
+    }
+    #mainMenu {
+        display: none;
+    }
+    #mainMenu.show {
+        display: block;
+    }
     /* Navigation Styles */
     nav {
         display: flex;
@@ -20,4 +30,25 @@
     .card2 {
         width: calc(50% - 0);
     }
+}
+/* Dark Mode Button Styles */
+#darkModeToggle {
+    background-color: transparent; /* Transparent background for the button */
+    color: #fff; /* Text color */
+    border: none;
+    cursor: pointer;
+    
+    font-size: 18px; /* Adjust button font size */
+    padding: 5px 10px; /* Padding around the text */
+    transition: background-color 0.3s ease; /* Smooth transition for button */
+}
+
+#darkModeToggle:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Background color on hover */
+}
+
+/* Dark Mode Styles */
+.dark-mode {
+    background-color: #111; /* Dark background color */
+    color: #fff; /* Light text color */
 }
