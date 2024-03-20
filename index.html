@@ -1,62 +1,91 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Azeez Adedeji - WDD 230 - Web Frontend Development</title>
-    <meta name="description" content="WDD 230 - Web Frontend Development. Azeez Adedeji's course assignment portal.">
+    <meta name="description" content="Azeez Adedeji 'WDD 230 - Web Frontend Development">
     <meta name="author" content="Azeez Adedeji">
-    <link rel="stylesheet" href="./styles/normalize.css">
-    <link rel="stylesheet" href="./styles/base.css">
-    <link rel="stylesheet" href="./styles/larger.css">
-    <!-- Social media meta tags-->
-    <meta property="og:title" content="Azeez Adedeji">
-    <meta property="og:URL" content="https://adedeji234501.github.io/wdd230/">
-    <!-- Favicon -->
-    <link rel="icon" type="image/png" href="images/favicon.jpg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Eczar:wght@400..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="icon" href="images/favicon.jpg">
+    <meta property="og:title" content="Azeez Adedeji - WDD 230 - Web Frontend Development">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://images.pexels.com/photos/220887/pexels-photo-220887.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+    <meta property="og:url" content="https://adedeji234501.github.io/wdd230/index.html">
 </head>
 <body>
     <header>
-        <!-- Hamburger menu icon for mobile view -->
-        <div id="menuIcon" class="menu-icon" onclick="toggleMenu()">
-            <div class="bar"></div>
-            <div class="bar"></div>
-            <div class="bar"></div>
-        </div>
-        <img src="images/profile.jpg" alt="Azeez Adedeji">
+        <img src="images/photo.webp" alt="Azeez Adedeji Profile" width="75" height="100" id="profile">
         <span>Azeez Adedeji</span>
-        <button id="darkModeToggle">Dark Mode</button>
-    </header> 
-
-    <nav id="mainMenu">
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="chamber/index.html">Chamber</a></li>
-            <li><a href="chamber-site-plan.html">Site Plan</a></li>
-            <li><a href="#">Form</a></li>
-        </ul>
+        <button id="darkBtn" >Dark Mode</button>
+    </header>
+    <nav>
+        <span id="menuBtn"></span>
+        <a href="index.html" class="active">Home</a>
+        <a href="chamber/">Chamber</a>
+        <a href="week01/chamber-site-plan.html">Site Plan</a>
+        <a href="#">Form</a>
     </nav>
-
     <main>
+        <div class="hero">
+            <picture>
+                <source media="(max-width: 608px)" srcset="images/hero-small.webp">
+                <img src="images/hero-big.webp" alt="Hero Image, London England Temple" width="960" height="700">
+            </picture>
+            <div class="hero-label">
+                <p>Aba Nigeria Temple</p>
+            </div>
+        </div>
         <h1>WDD 230: Web Frontend Development</h1>
-        <section class="card1">
+        <section class="card">
             <h2>Learning Activities</h2>
-            <ul id="learningActivities">
-                <!-- Populate this list dynamically with JavaScript -->
+            <ul>
+                <li>
+                    Week 01:
+                    <a href="week01/holygrail.html">Layout</a> |
+                    <a href="week01/media-query.html">Media Query</a> |
+                    <a href="https://codepen.io/l-gomes-ar/pen/LYawadq">JS Pen</a>
+                </li>
+                <li>
+                    Week 02:
+                    <a href="week02/design.html">Design</a> |
+                    <a href="https://codepen.io/l-gomes-ar/pen/PogqMVw">Responsive</a> |
+                    <a href="week02/bom.html">DOM</a>
+                </li>
+                <li>
+                    Week 03:
+                    <a href="week03/images/landscape.webp">WebP</a> |
+                    <a href="week03/lazyload.html">LazyLoad</a> |
+                    <a href="week03/responsive-images.html">Srcset</a> |
+                    <a href="week03/bom.html">LocalStorage</a>
+                </li>
+                <li>
+                    Week 04:
+                </li>
+                <li>
+                    Week 05:
+                </li>
+                <li>
+                    Week 06:
+                </li>
             </ul>
         </section>
-        <section class="card2">
+        <section class="card information">
             <h2>Information</h2>
-            <p>Weather: Placeholder</p>
-            <p>Number of visits: Placeholder</p>
+            <p>Information about the weather placeholder</p>
+            <p>Visit Count: <span id="numberVisits"></span></p>
         </section>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3973.729997359923!2d7.35543791162438!3d5.147098765039871!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x10429986acee733b%3A0xe939f64e8530fc7f!2sAba%20Nigeria%20Temple!5e0!3m2!1sen!2sng!4v1710879948874!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </main>
-
     <footer>
-        <p>Copyright &copy; 2024 - Azeez Adedeji - Lagos, Nigeria</p>
+        <p>&copy;<span id="year"></span> .:|:. Azeez Adedeji .:|:. Lagos, Nigeria</p>
         <p id="lastModified"></p>
     </footer>
-
-    <script src="./scripts/getDates.js"></script>
+    <script src="scripts/getDates.js"></script>
+    <script src="scripts/getInfoDetails.js"></script>
 </body>
 </html>

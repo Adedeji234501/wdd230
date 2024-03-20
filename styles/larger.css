@@ -1,54 +1,49 @@
-
-/* Media Query for Larger Views */
-@media screen and (min-width: 768px) {
-    .menu-icon {
-        display: flex;
+@media screen and (min-width: 961px) {
+    main {
+        max-width: 960px;
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        grid-template-rows: auto 1fr;
+        gap: 1rem;
     }
-    #mainMenu {
+
+    .hero {
+        grid-column: 1 / 3;
+    }
+
+    #menuBtn {
         display: none;
     }
-    #mainMenu.show {
+
+    nav a {
         display: block;
     }
-    /* Navigation Styles */
+
+    h1 {
+        margin: 0;
+        grid-column: 1 / 3;
+    }
+
     nav {
-        display: flex;
-        justify-content: center;
+        flex-direction: row;
     }
 
-    /* Main Content Styles */
-    main {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-gap: 20px;
-    }
-
-    /* Card Styles */
     .card {
-        width: calc(50% - 0);
+        margin: 0;
+        box-shadow: 1px 1px 10px black;
     }
-    .card2 {
-        width: calc(50% - 0);
+
+    .card ul,
+    .card p {
+        font-size: 1.1rem;
     }
-}
-/* Dark Mode Button Styles */
-#darkModeToggle {
-    background-color: transparent; /* Transparent background for the button */
-    color: #fff; /* Text color */
-    border: none;
-    cursor: pointer;
-    
-    font-size: 18px; /* Adjust button font size */
-    padding: 5px 10px; /* Padding around the text */
-    transition: background-color 0.3s ease; /* Smooth transition for button */
-}
 
-#darkModeToggle:hover {
-    background-color: rgba(255, 255, 255, 0.2); /* Background color on hover */
-}
+    iframe {
+        grid-column: 1 / 3;
+    }
 
-/* Dark Mode Styles */
-.dark-mode {
-    background-color: #111; /* Dark background color */
-    color: #fff; /* Light text color */
+    .hero img,
+    iframe {
+        box-shadow: 2px 2px 10px black;
+    }
 }
