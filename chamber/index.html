@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Lekki Chamber of Commerce home page for WDD 230.">
+    <meta name="author" content="Azeez Adedeji">
+    <meta property="og:title" content="Azeez Adedeji - WDD 230 - Chamber of Commerce Site">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://adedeji234501.github.io/wdd230/chamber/">
+    <title>Lekki Chamber of Commerce | Home</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Eczar:wght@400..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/favicon.webp">
+</head>
+<body>
+    <header>
+        <img src="images/logo.webp" alt="lekki chamber Logo" height="100">
+        <div>
+            <h1>Lekki<br>Chamber of Commerce</h1>
+        </div>
+        <div id="hamburgerButton">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+    </div>
+    </header>
+    
+    <nav>
+        <ul class="menuLinks">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="discover.html">Discover</a></li>
+            <li><a href="directory.html">Directory</a></li>
+            <li><a href="join.html">Join</a></li>
+        </ul>
+    </nav>
+
+    <main>
+
+        <div class="hero">
+            <img src="images/hero.webp" alt="Hero Image Chamber of Commerce">
+            <a href="join.html">
+                <button class="callToAction">Join Us</button>
+            </a>
+        </div>
+        <hr>
+        
+        <div class="grid-container">
+            <section class="events card">
+                <h2>Events</h2>
+                <h3>Chamber of Commerce Business Expo</h3>
+                <p>Join us for the annual Chamber of Commerce Business Expo, where local businesses showcase their products and services, network with fellow entrepreneurs,and connect with potential customers</p>
+                <p><a href="">Click here</a> to find out more.</p>
+            </section>
+
+            <section class="weather card">
+                <h2>Weather</h2>
+                <hr>
+                <div>
+                    <div>
+                        <img src="images/sunny.webp" alt="forecast" class="forecast" height="50" width="50">
+                        <p class="temp">32°C</p>
+                        <p class="forecast"><strong>Mostly sunny</strong></p>
+                        <p>Humidity: </p>
+                        <span>68%</span>
+                        <p>Wind Chill: </p>
+                        <span>N/A</span>
+                    </div>
+                </div>
+            </section>
+
+            <section class="spotlights">
+                <h2>Member Spotlights</h2>
+                <div class="card">
+                    <img src="images/greentech.webp" alt="Arnold and Arnold law firm logo">
+                    <h3>Greentech Solutions</h3>
+                    <p>At GreenTech Solutions, we believe in creating a sustainable future for generations to come</p>
+                    <p>Join us in the green resolution and make a positive impact on the planet while boosting your bottom line.</p>
+                </div>
+                <div class="card">
+                    <img src="images/catering.webp" alt="DGR's Clubhouse logo">
+                    <h3>Culinary Delights Catering</h3>
+                    <p>Elevate your event with Culinary Delights Catering and savor the difference of exceptional food and service.</p>
+                </div>
+                <div class="card">
+                    <img src="images/fitness.webp" alt="Needle in a haystack logo">
+                    <h3>Fitness Fusion Studio</h3>
+                    <p>At Fitness Fusion Studio, we believe in empowering individuals to lead healthy, balanced lives.</p>
+                    <p>Join our community and embark on a journey of transformation and wellness</p>
+                </div>
+            </section>
+        </div>
+        
+
+    </main>
+    <footer>
+        <div class="contact">
+            <div>
+                <img src="images/logo.webp" alt="Lekki chamber Logo" height="100">
+                <p>Lekki<br> Chamber of Commerce <br>19b Admiralty Way, Lekki <br>Lagos, Nigeria</p>
+            </div>
+            <p>info@lekkicc.org <br>+234 813 240 4526 <br>📍Location Map</p>
+        </div>
+            
+        <hr>
+        <div class="develop">
+            <p>&copy;<span id="year"></span> Lekki Chamber</p><span class="marker">&nbsp;|&nbsp;</span>
+            <p>Azeez Adedeji</p><span class="marker">&nbsp;|&nbsp;</span>
+            <p>WDD 230 Project</p><span class="marker">&nbsp;|&nbsp;</span>
+            <p>Last Modification: <span id="lastModified"></span></p>
+        </div>
+    </footer>
+    <script src="scripts/getDates.js"></script>
+    <script src="scripts/script.js"></script>
+</body>
+</html>
