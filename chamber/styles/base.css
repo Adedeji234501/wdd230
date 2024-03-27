@@ -372,7 +372,7 @@ ul.menuLinks.open {
 }
 
 .year-change:hover {
-    background-color: #9796f0;
+    background-color: var(--secondary-color);
     transition: all .2s ease-in-out;
     transform: scale(1.12);
 }
@@ -429,7 +429,7 @@ ul.menuLinks.open {
 .wf1 input[type="submit"] {
     border: none;
     padding: 1rem;
-    background-image: linear-gradient(var(--primary-color), #ac078e);
+    background-image: linear-gradient(var(--primary-color), var(--secondary-color));
     color: aliceblue;
     margin: 2rem 0 2rem 0;
     font-size: 1.2rem;
@@ -444,7 +444,7 @@ ul.menuLinks.open {
 }
 
 .wf1 input:required {
-    border-left: 8px solid red;
+    border-left: 8px solid var(--secondary-color);
 }
 
 .wf1 input:required:valid {
