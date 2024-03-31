@@ -1,0 +1,60 @@
+{
+    "companies": [
+        {
+            "image":"https://www.finelib.com/images/listings/tn/59980_company_logo.JPG",
+            "name": "Affordable Cars Ltd",
+            "address": "Plot 7, Lekki Epe Expressway, Lekki, Lagos Nigeria",
+            "phone": "0809 556 5850",
+            "description": "Affordable Cars Limited is a leading auto dealership company located in Lekki with a corporate head office in Ikeja that offers sales of quality brands of cars such as Land Rover, KIA, Mitsubishi and provides 24/7 car care services.",
+            "membershipLevel": "Gold"
+        },
+        {
+            "image": "https://www.finelib.com/images/listings/tn/61565_company_logo.JPG",
+            "name": "4outfit",
+            "address": "Femi Okunu Estate Phase 4, Lekki Phase 1, Lagos Nigeria",
+            "phone": "0908 205 3600",
+            "description": "Shop the latest trends and designs in shoes, clothes and accessories ranging from traditional attires, tailored suits and blazers, shirts, gowns, beach wears hand-made footwear and accessories and office wear in 4outfit.",
+            "membershipLevel": "NP Membership (Non-profit)"
+        },
+        {
+            "image": "https://www.finelib.com/images/listings/tn/79797_company_logo.JPG",
+            "name": "DigiBrands Limited",
+            "address": "5A Modupe Odunlami Street, Oniru, Lekki, Lagos, Nigeria",
+            "phone": "0803 864 4898",
+            "description": "DigiBrands Limited offers different types of business services such as digital marketing, strategic brand marketing, IT training and others.",
+            "membershipLevel": "Silver"
+        },
+        {
+            "image": "https://www.finelib.com/images/listings/tn/12373_company_logo.PNG",
+            "name": "The Sage Homes",
+            "address": "Plot 37A, Awudu, Ekpekha Boulevard Off, Admiralty Way, Lekki Phase 1 Lekki, Lagos Nigeria",
+            "phone": "0806 266 3901",
+            "description": "The Sage Homes is constantly setting new standards in the areas of customer service, creativity and hard work and to leverage the industry knowledge and expertise of their members to deliver high quality solutions to their clients.",
+            "membershipLevel": "Bronze"
+        },
+        {
+            "image": "https://www.finelib.com/images/listings/tn/98199_company_logo.jpg",
+            "name": "Primeway Investment Limited",
+            "address": "Freedom Way, Lekki Phase 1, Lekki, Lagos",
+            "phone": "0915 095 9618",
+            "description": "We make real estate investments accessible to everyone in a simple, secure, and profitable way. We achieve this through excellent practice, continual innovation, conducting business with integrity, and putting our customers first at all times.",
+            "membershipLevel": "Gold"
+        },
+        {
+            "image": "https://www.finelib.com/images/listings/tn/98836_company_logo.JPG",
+            "name": "Octamile",
+            "address": "Suite 8, 3rd Floor, Scapular Plaza, By Piccadilly Suites, KM 17 Lekki - Epe Expy, Lekki Penninsula II, Lekki, Lagos, Nigeria",
+            "phone": " 0802 453 9731",
+            "description": "Octamile offer white label insurance management software solutions for the auto insurance industry.",
+            "membershipLevel": "Silver"
+        },
+        {
+            "image": "https://www.finelib.com/images/listings/tn/80238_company_logo.jpg",
+            "name": "REGAMOS Consulting",
+            "address": "KM 58 Lekki Epe Expressway, Ibeju Lekki, Lagos",
+            "phone": "0802 330 0639",
+            "description": "REGAMOS is a leading educational services firm, which provides cutting edge solutions in branding, training, education research, school improvement, the use of technology and consultancy services to a wide range of companies.",
+            "membershipLevel": "NP Membership (Non-profit)"
+        }
+    ]
+}

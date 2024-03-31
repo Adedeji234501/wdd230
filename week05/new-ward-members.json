@@ -1,0 +1,28 @@
+{
+    "FamilyName": "Azeez",
+    "DateMovedToWard": "2023-03-20",
+    "NumberOfPeopleInFamily": 4,
+    "VisitedByBishopric": true,
+    "FamilyMembers": [
+        {
+            "Name": "Victor Azeez",
+            "Gender": "Male",
+            "Birthdate": "1970-11-25"
+        },
+        {
+            "Name": "Adetope Azeez",
+            "Gender": "Female",
+            "Birthdate": "1978-09-01"
+        },
+        {
+            "Name": "Adedeji Azeez",
+            "Gender": "Male",
+            "Birthdate": "1995-05-05"
+        },
+        {
+            "Name": "Samuel Azeez",
+            "Gender": "Male",
+            "Birthdate": "2000-01-12"
+        }
+    ]
+}

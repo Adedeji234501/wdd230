@@ -83,4 +83,20 @@
         justify-content: space-between;
         gap: 1rem;
     }
+    @keyframes glow-shrink {
+        50% {
+            opacity: .6;
+            width: 95%
+        }
+    }
+
+    .directory.list div {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .directory.list div p,
+    .directory.list div h2 {
+        width: 150px;
+    }
 }

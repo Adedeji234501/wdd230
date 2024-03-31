@@ -8,10 +8,10 @@
     <meta name="author" content="Azeez Adedeji">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Eczar:wght@400..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
-    <link rel="icon" href="images/favicon">
+    <link rel="stylesheet" href="styles/form.css">
+    <link rel="icon" href="images/favicon.webp">
     <meta property="og:title" content="Azeez Adedeji - WDD 230 - Web Frontend Development">
     <meta property="og:type" content="website">
     <meta property="og:image" content="https://images.pexels.com/photos/220887/pexels-photo-220887.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
@@ -31,64 +31,40 @@
         <a href="week01/chamber-site-plan.html">Site Plan</a>
         <a href="form.html" class="active">Form</a>
     </nav>
-    
-<!-- CONTENT HERE -->
-<main>
-    <h1>Course Proposal Application</h1>
-    <form action="thanks.html" method="get" class="wf1">
-        <fieldset>
-            <legend>Applicant Information</legend>
-            
-            <label>First Name*<input type="text" name="fname" required></label>
-            <label>Last Name*<input type="text" name="lname" required></label>
-            <label>Phone<input type="tel" name="phone" placeholder="1235551234"></label>
-            <label>Email*<input type="email" name="email" required placeholder="someone@gmail.com"></label>
-            <label>Website<input type="url" name="url" placeholder="https://"></label>
-        </fieldset>
 
-        <fieldset>
-            <legend>Course Information</legend>
-            <div>Audience</div>
-            <label><input type="radio" name="audience" value="beginner">Beginner</label>
-            <label><input type="radio" name="audience" value="beginner">Intermediate</label>
-            <label><input type="radio" name="audience" value="beginner">Advanced</label>
-
-            <div>Software Needed</div>
-            <label><input type="checkbox" name="code" value="yes">Coding</label>
-            <label><input type="checkbox" name="client" value="yes">FTP Client</label>
-            <label><input type="checkbox" name="editing" value="yes">Photo Editing</label>
-            <label><input type="checkbox" name="process" value="yes">Preprocessor</label>
-        </fieldset>
-
-        <fieldset>
-            <legend>Funding</legend>
-            <label>Anticipated Completion Date<input type="date" name="completeDate"></label>
-            <label>Course Subject 
-                <select name="subject">
-                    <option value="" disabled selected>Select One&#9662;</option>
-                    <option value="business">Business Professional</option>
-                    <option value="construction">Construction</option>
-                    <option value="creative">Creative Professional</option>
-                    <option value="security">Cyber Security</option>
-                    <option value="data">Data Professional</option>
-                    <option value="info">Information Technology</option>
-                    <option value="manufacturing">Manufacturing</option>
-                    <option value="software">Software Development</option>
-                    
-                    
-                    
-                    
-                    
-                </select>
-            </label>
-            <label>How Many Authors <input type="number" name="authors"></label>
-        </fieldset>
-        <input type="submit" value="Propose My Course">
-    </form>
-        
-
-          
-        
+    <!-- CONTENT HERE -->
+    <main>
+        <h1>WDD 230: Web Frontend Development - Form</h1>
+        <section class="card form">
+            <form action="record.html" method="get">
+                <fieldset>
+                    <legend>User Details</legend>
+                    <label>Username<span id="required"></span>:<input type="text" id="username" name="username" required autofocus></label>
+                    <label>Password<span id="required"></span>:<input type="password" id="password" name="password" required pattern="[a-zA-Z0-9]{8,}" title="Password must be at least eight (8) characters long and alpha-numeric."></label>
+                    <label>Re-Enter Password<span id="required"></span>:<input type="password" id="passwordConfirmation" name="passwordConfirmation" pattern="[a-zA-Z0-9]{8,}" required></label>
+                    <div id="feedback"></div>
+                    <label>Email<span id="required"></span>:<input type="email" id="email" name="email" required pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" title="Please enter a valid email address"></label>
+                </fieldset>
+                <fieldset>
+                    <legend>Rating</legend>
+                    <div id="rangeValue">1</div>
+                    <label>Page Rating:<input type="range" name="pageRating" id="pageRating" value="0" step="1" min="1" max="10" list="rangevalues"></label>
+                    <datalist id="rangevalues">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                    </datalist>
+                </fieldset>
+                <input type="submit" value="Send Your Page Rate">
+            </form>
+        </section>
     </main>
     
 <!-- FOOTER HERE -->   
@@ -98,5 +74,6 @@
     </footer>
     <script src="scripts/getDates.js"></script>
     <script src="scripts/getInfoDetails.js"></script>
+    <script src="scripts/forms.js"></script>
 </body>
 </html>
