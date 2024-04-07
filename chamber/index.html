@@ -18,6 +18,11 @@
     <link rel="icon" href="images/favicon.webp">
 </head>
 <body>
+        <div class="banner">
+            <p>Join us for the Chamber of Commerce Meet and Greet on Wednesday at 7:00 P.M. Everyone is welcome!</p>
+                <button class="close">❌</button>
+        </div>
+
     <header>
         <img src="images/logo.webp" alt="lekki chamber Logo" height="100">
         <div>
@@ -62,36 +67,29 @@
                 <hr>
                 <div>
                     <div>
-                        <img src="images/sunny.webp" alt="forecast" class="forecast" height="50" width="50">
-                        <p class="temp">32°C</p>
-                        <p class="forecast"><strong>Mostly sunny</strong></p>
+                        <p class="temp"></p>
+                        <p class="forecast"><strong></strong></p>
                         <p>Humidity: </p>
-                        <span>68%</span>
-                        <p>Wind Chill: </p>
-                        <span>N/A</span>
+                        <span class="humidity"></span>
+                        <p>Wind Chill:&nbsp;</p>
+                        <span class="chill"></span>
+                    </div>
+                    <hr>
+                    <div class="three-day">
+                        <p class="date"></p>
+                        <span class="temp-range"></span>
+                        <p class="date"></p>
+                        <span class="temp-range"></span>
+                        <p class="date"></p>
+                        <span class="temp-range"></span>
                     </div>
                 </div>
             </section>
 
             <section class="spotlights">
                 <h2>Member Spotlights</h2>
-                <div class="card">
-                    <img src="images/greentech.webp" alt="Arnold and Arnold law firm logo">
-                    <h3>Greentech Solutions</h3>
-                    <p>At GreenTech Solutions, we believe in creating a sustainable future for generations to come</p>
-                    <p>Join us in the green resolution and make a positive impact on the planet while boosting your bottom line.</p>
-                </div>
-                <div class="card">
-                    <img src="images/catering.webp" alt="DGR's Clubhouse logo">
-                    <h3>Culinary Delights Catering</h3>
-                    <p>Elevate your event with Culinary Delights Catering and savor the difference of exceptional food and service.</p>
-                </div>
-                <div class="card">
-                    <img src="images/fitness.webp" alt="Needle in a haystack logo">
-                    <h3>Fitness Fusion Studio</h3>
-                    <p>At Fitness Fusion Studio, we believe in empowering individuals to lead healthy, balanced lives.</p>
-                    <p>Join our community and embark on a journey of transformation and wellness</p>
-                </div>
+                
+                    
             </section>
         </div>
         
@@ -116,5 +114,7 @@
     </footer>
     <script src="scripts/getDates.js"></script>
     <script src="scripts/script.js"></script>
+    <script src="scripts/weather.js"></script>
+    <script src="scripts/directory.js"></script>
 </body>
 </html>

@@ -59,6 +59,18 @@ body {
     flex-direction: column;
     min-height: 100vh;
 }
+.banner {
+    display: flex;
+    justify-content: center;
+    background-color: #f8d7da;
+    padding: 1.5rem;
+}
+
+.banner button {
+    width: 52px;
+    height: 46px;
+    margin: 0 0.5rem;
+}
 
 h1 {
     margin: 0;
@@ -676,16 +688,6 @@ ul.menuLinks.open {
 
 .marker {
     visibility: hidden;
-}
-
-.thankyou {
-    padding: 5rem;
-    background-color: var(--secondary-color);
-    color: rgb(12, 40, 12);
-    font-size: 20pt;
-    text-align: left;
-    margin-bottom: 100%;
-    border-radius: 10px;
 }
 
 /* Directory page */

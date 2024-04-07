@@ -1,60 +1,114 @@
+
 {
-    "companies": [
+    "companies": 
+    [
         {
-            "image":"https://www.finelib.com/images/listings/tn/59980_company_logo.JPG",
+            "img":"https://www.finelib.com/images/listings/tn/59980_company_logo.JPG",
             "name": "Affordable Cars Ltd",
             "address": "Plot 7, Lekki Epe Expressway, Lekki, Lagos Nigeria",
             "phone": "0809 556 5850",
+            "url": "https://affordablecarsng.com/",
             "description": "Affordable Cars Limited is a leading auto dealership company located in Lekki with a corporate head office in Ikeja that offers sales of quality brands of cars such as Land Rover, KIA, Mitsubishi and provides 24/7 car care services.",
             "membershipLevel": "Gold"
         },
         {
-            "image": "https://www.finelib.com/images/listings/tn/61565_company_logo.JPG",
+            "img": "https://www.finelib.com/images/listings/tn/61565_company_logo.JPG",
             "name": "4outfit",
             "address": "Femi Okunu Estate Phase 4, Lekki Phase 1, Lagos Nigeria",
             "phone": "0908 205 3600",
+            "url": "https://4outfit.com.ng/",
             "description": "Shop the latest trends and designs in shoes, clothes and accessories ranging from traditional attires, tailored suits and blazers, shirts, gowns, beach wears hand-made footwear and accessories and office wear in 4outfit.",
             "membershipLevel": "NP Membership (Non-profit)"
         },
         {
-            "image": "https://www.finelib.com/images/listings/tn/79797_company_logo.JPG",
+            "img": "https://www.finelib.com/images/listings/tn/79797_company_logo.JPG",
             "name": "DigiBrands Limited",
             "address": "5A Modupe Odunlami Street, Oniru, Lekki, Lagos, Nigeria",
             "phone": "0803 864 4898",
+            "url": "https://digibrands.com.ng/",
             "description": "DigiBrands Limited offers different types of business services such as digital marketing, strategic brand marketing, IT training and others.",
             "membershipLevel": "Silver"
         },
         {
-            "image": "https://www.finelib.com/images/listings/tn/12373_company_logo.PNG",
+            "img": "https://www.finelib.com/images/listings/tn/12373_company_logo.PNG",
             "name": "The Sage Homes",
             "address": "Plot 37A, Awudu, Ekpekha Boulevard Off, Admiralty Way, Lekki Phase 1 Lekki, Lagos Nigeria",
             "phone": "0806 266 3901",
+            "url": "https://thesagehomes.com/",
             "description": "The Sage Homes is constantly setting new standards in the areas of customer service, creativity and hard work and to leverage the industry knowledge and expertise of their members to deliver high quality solutions to their clients.",
             "membershipLevel": "Bronze"
         },
         {
-            "image": "https://www.finelib.com/images/listings/tn/98199_company_logo.jpg",
+            "img": "https://www.finelib.com/images/listings/tn/98199_company_logo.jpg",
             "name": "Primeway Investment Limited",
             "address": "Freedom Way, Lekki Phase 1, Lekki, Lagos",
             "phone": "0915 095 9618",
+            "url": "https://primeway-investment-limited.realtornigeria.com/",
             "description": "We make real estate investments accessible to everyone in a simple, secure, and profitable way. We achieve this through excellent practice, continual innovation, conducting business with integrity, and putting our customers first at all times.",
             "membershipLevel": "Gold"
         },
         {
-            "image": "https://www.finelib.com/images/listings/tn/98836_company_logo.JPG",
+            "img": "https://www.finelib.com/images/listings/tn/98836_company_logo.JPG",
             "name": "Octamile",
             "address": "Suite 8, 3rd Floor, Scapular Plaza, By Piccadilly Suites, KM 17 Lekki - Epe Expy, Lekki Penninsula II, Lekki, Lagos, Nigeria",
             "phone": " 0802 453 9731",
+            "url": "https://octamile.com/",
             "description": "Octamile offer white label insurance management software solutions for the auto insurance industry.",
             "membershipLevel": "Silver"
         },
         {
-            "image": "https://www.finelib.com/images/listings/tn/80238_company_logo.jpg",
+            "img": "https://www.finelib.com/images/listings/tn/80238_company_logo.jpg",
             "name": "REGAMOS Consulting",
             "address": "KM 58 Lekki Epe Expressway, Ibeju Lekki, Lagos",
             "phone": "0802 330 0639",
+            "url": "https://regamosconsulting.com/",
             "description": "REGAMOS is a leading educational services firm, which provides cutting edge solutions in branding, training, education research, school improvement, the use of technology and consultancy services to a wide range of companies.",
             "membershipLevel": "NP Membership (Non-profit)"
+        },
+        {
+            "img": "https://www.finelib.com/images/listings/tn/25650_company_logo.JPG",
+            "name": "Sailors Lounge",
+            "address": "Block 12, Plot 1, Admiralty Road (Beside Daytona Phamacy), Lekki phase 1, Lagos Nigeria",
+            "phone": "0812 407 9107",
+            "url": "https://campsite.bio/sailorslounge/",
+            "description": "Sailors Lounge is an adventurous relaxable lounge with sea view atmosphere with rigorous quality control and comprehensive product range from continental meals to assorted drinks sought from the original manufacturers",
+            "membershipLevel": "Silver"
+        },
+        {
+            "img": "https://www.finelib.com/images/listings/tn/40581_company_logo.JPG",
+            "name": "Blenco Supermarket",
+            "address": "kilometer 53, Addo Road Lekki-Epe Expressway, Lekki, Lagos Nigeria",
+            "phone": "0704 612 1252",
+            "url": "https://www.blenco.ng/",
+            "description": "Blenco Super Market is a mega store selling varieties of goods meat, fish, sea food, baking flours, fruits, tuber, plantain, rice, beans, vegetable oil, juice including cosmetics, toys and event gallery",
+            "membershipLevel": "Gold"
+        },
+        {
+            "img": "https://www.finelib.com/images/listings/tn/101741_company_logo.JPG",
+            "name": "Bree Healths",
+            "address": "33 Chief Yesufu Abiodun Oniru Road, Maroko, Lekki, Lagos",
+            "phone": "0805 464 7527",
+            "url": "https://breehealth.com/",
+            "description": "BreeHealths is a health establishment owned by a nutrition consultant who produces and sells a wide range of health products for kids and adults alike.",
+            "membershipLevel": "Gold"
+        },
+        {
+            "img": "https://www.finelib.com/images/listings/tn/98621_company_logo.JPG",
+            "name": "Purelife Phamarcy",
+            "address": "15b Admiralty Way, Lekki Phase 1, Lagos",
+            "phone": "0816 579 2450",
+            "url": "https://purelifehealth.io/",
+            "description": "Purelife Pharmacy is a pharmacy stocked with quality goods, drugs and cosmetic.",
+            "membershipLevel": "Bronze"
+        },
+        {
+            "img": "https://www.finelib.com/images/listings/tn/97965_company_logo.JPG",
+            "name": "TATAgency NG",
+            "address": "38b Adebayo Doherty Road, Lekki Phase 1, Lagos, Nigeria",
+            "phone": "0906 000 7437",
+            "url": "https://tatagency.com/",
+            "description": "TATAgencyNG was established to serve all our customers travel needs starting from visa processing to advisory services.",
+            "membershipLevel": "Silver"
         }
     ]
 }
